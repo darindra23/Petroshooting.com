@@ -11,7 +11,7 @@ import image6 from '../assets/images/Carousel6.png';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const slideImages = [image1, image2, image3, image4, image5, image6];
+const slideImages = [image1, image2, image6, image3, image4, image5];
 
 export default function () {
 	const [width, height] = useWindowSize();
