@@ -12,7 +12,7 @@ export default function () {
 					src={navbar}
 					style={{
 						maxWidth: width <= 1024 && height <= 1024 ? '35vw' : '15vw',
-						marginLeft: !(width <= 1024 && height <= 1024) && '7.33vw'
+						marginLeft: !(width <= 1024 && height <= 1024) && '7vw'
 					}}
 					alt="navbar"
 				/>
@@ -36,7 +36,7 @@ export default function () {
 							backgroundColor: !(width <= 1024 && height <= 1024) && 'orange',
 							color: !(width <= 1024 && height <= 1024) && 'white',
 							fontWeight: !(width <= 1024 && height <= 1024) && 'bolder',
-							marginRight: !(width <= 1024 && height <= 1024) && '7.33vw'
+							marginRight: !(width <= 1024 && height <= 1024) && '7vw'
 						}}
 						onClick={() =>
 							window.open(`https://api.whatsapp.com/send?phone=628111383870&text=Halo,%20admin%20Petroshooting%20Club.`)
