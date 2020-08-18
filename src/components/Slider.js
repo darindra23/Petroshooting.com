@@ -7,15 +7,16 @@ import image2 from '../assets/images/Carousel2.png';
 import image3 from '../assets/images/Carousel3.png';
 import image4 from '../assets/images/Carousel4.png';
 import image5 from '../assets/images/Carousel5.png';
+import image6 from '../assets/images/Carousel6.png';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const slideImages = [image1, image2, image3, image4, image5];
+const slideImages = [image1, image2, image3, image4, image5, image6];
 
 export default function () {
 	const [width, height] = useWindowSize();
 	return (
-		<div className="slide" style={{ display: 'flex', justifyContent: 'center',backgroundColor:'gray' }}>
+		<div className="slide" style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'gray' }}>
 			<Carousel
 				showArrows={false}
 				showThumbs={false}
@@ -23,7 +24,7 @@ export default function () {
 				showStatus={false}
 				infiniteLoop={true}
 				stopOnHover={false}
-				width={width <= 1024 && height <= 1024 ? '100vw' : '80vw'}
+				width={width <= 1024 && height <= 1024 ? '100vw' : '83vw'}
 			>
 				{slideImages.map((el) => (
 					<div className="each-slide">

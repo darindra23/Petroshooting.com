@@ -14,11 +14,11 @@ export default function () {
 			<div className="about-us">
 				<img src={logo} alt="logo" />
 				<p className="mt-2 ml-4" style={{ fontSize: '1.2vw', marginRight: '10vw' }}>
-					<strong>Petroshooting Club</strong> adalah klub yang terdaftar di PERBAKIN DKI JAYA.
+					<strong>Petroshooting Club</strong> adalah klub menembak yang terdaftar di PERBAKIN DKI Jaya.
 					<br />
 					<br />
 					Visi Petroshooting Club adalah menjadi klub menembak dengan atlet yang berprestasi untuk kebanggaan bangsa
-					indonesia.
+					Indonesia.
 					<br />
 					<br />
 					Misi Petroshooting Club :
