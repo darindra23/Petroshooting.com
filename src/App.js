@@ -25,7 +25,13 @@ function App() {
 			<Navbar />
 			<Slider />
 			<Step />
-			<Container fluid>
+			<Container
+				fluid
+				style={{
+					paddingLeft: (width >= 1024 || height >= 1024) && '35px',
+					paddingRight: (width >= 1024 || height >= 1024) && '0px'
+				}}
+			>
 				{width <= 1024 && height <= 1024 ? <FAQMobile /> : <FAQ />}
 				{width <= 1024 && height <= 1024 && <Contact />}
 				{width <= 1024 && height <= 1024 ? <AboutMobile /> : <About />}
