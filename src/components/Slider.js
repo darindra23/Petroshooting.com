@@ -5,10 +5,11 @@ import image1 from '../assets/images/Carousel1.png';
 import image2 from '../assets/images/Carousel2.png';
 import image3 from '../assets/images/Carousel3.png';
 import image4 from '../assets/images/Carousel4.png';
+import image5 from '../assets/images/Carousel5.png';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const slideImages = [image1, image2, image3, image4];
+const slideImages = [image1, image2, image3, image4, image5];
 
 export default function () {
 	return (
@@ -21,18 +22,11 @@ export default function () {
 				infiniteLoop={true}
 				stopOnHover={false}
 			>
-				<div className="each-slide">
-					<img src={slideImages[0]} alt="slide-1" />
-				</div>
-				<div className="each-slide">
-					<img src={slideImages[1]} alt="slide-1" />
-				</div>
-				<div className="each-slide">
-					<img src={slideImages[2]} alt="slide-1" />{' '}
-				</div>
-				<div className="each-slide">
-					<img src={slideImages[3]} alt="slide-1" />
-				</div>
+				{slideImages.map((el) => (
+					<div className="each-slide">
+						<img src={el} alt="slide-1" />
+					</div>
+				))}
 			</Carousel>
 		</div>
 	);
