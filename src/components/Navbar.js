@@ -39,7 +39,7 @@ export default function () {
 							marginRight: !(width <= 1024 && height <= 1024) && '7vw'
 						}}
 						onClick={() =>
-							window.open(`https://api.whatsapp.com/send?phone=628111383870&text=Halo,%20admin%20Petroshooting%20Club.`)
+							window.open(`https://api.whatsapp.com/send?phone=62811865129&text=Halo,%20admin%20Petroshooting%20Club.`)
 						}
 					>
 						CONTACT US
